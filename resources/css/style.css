@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+header {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 12px #0052E01A;
+    opacity: 1;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* Main nav */
+.nav {
+    display: flex;
+    flex-direction: row;
+    padding: 12px 0 12px 22px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 3px;
+}
+
+.main-nav li:first-child {
+    margin-left: 144px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 48px;
+}
+
+.main-nav li:nth-last-child(2), li:nth-last-child(1){
+    margin-left: 29px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    text-decoration: none;
+    text-align: left;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #363F5A;
+    opacity: 1;
+}
+
+.logo {
+    width: 201px;
+    height: 46px;
+    background: transparent url('img/Comp-Logo-General.svg') 0% 0% no-repeat padding-box;
+}
+
+.sign-in {
+    background: transparent linear-gradient(180deg, #5690FF 0%, #387DFF 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 9px #387DFF80;
+    border-radius: 20px;
+    width: 113px;
+    height: 40px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 87.5%;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.caret {
+    background: transparent url('img/Shape.svg') 0% 0% no-repeat padding-box;
+    margin-top: 20px;
+    margin-left: 24px;
+    width: 10px;
+    height: 7px;
+}
+
+/* First section  */
+
+.bold-heading {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #252E48;
+}
+
+.number {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #387DFF;
+    opacity: 1;
+}
+
+.bold-text {
+    text-align: center;
+    font-size: 112.5%;
+    letter-spacing: 0;
+    color: #545F7E;
+    margin-top: 10px;
+
+}
+
+.search {
+    width: 100%;
+    height: 453px;
+    background: transparent url('img/illustration 1.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.heading-box {
+    background: transparent url('img/bg.svg') 0% 0% no-repeat padding-box;
+    height: 636px;
+    opacity: 1;
+}
+
+.heading-box h2{
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.video-box img {
+    display: block;
+    margin: 52px auto 0 auto;
+}
